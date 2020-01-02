@@ -61,7 +61,7 @@ class UserController {
       });
 
       if (userExists) {
-        return res.status(400).json({ message: 'User already existssssss.' });
+        return res.status(400).json({ message: 'Access denied' });
       }
     }
 
